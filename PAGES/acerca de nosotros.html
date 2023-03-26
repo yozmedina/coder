@@ -12,7 +12,7 @@
     <!-- BOOTSTRAP -->
 
   <link rel="stylesheet" href="../CSS/bootstrap.min.css">
-  <link rel="stylesheet" href="../CSS/estilos.css">
+  <link rel="stylesheet" href="../SCSS/estilos.css">
 </head>
 
 
@@ -31,24 +31,29 @@
 <!-- Barra de navegación -->
 <nav class="navbar navbar-expand-lg navbar-light ">
   <div class="container-fluid barraNavegacion ">
-      <ul class="navbar-nav listaDesordenada ">
-        <li class="nav-item listaNav">
-          <a class="nav-link " href="../index.html">Inicio</a>
-        </li>
-        <li class="nav-item listaNav">
-          <a class="nav-link" href="#">Acerca De Nosotros</a>
-        </li>
-        <li class="nav-item listaNav">
-          <a class="nav-link" href="./colecciones.html">Colecciones</a>
-        </li>
-        <li class="nav-item listaNav">
-          <a class="nav-link" href="./galeria.html">Galeria</a>
-        </li>
-        <li class="nav-item listaNav">
-          <a class="nav-link" href="./contacto.html">Contacto</a>
-        </li>
-        
-      </ul>
+
+    <button class="navbar-toggler mt-4 sticky-top" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <img class="pajaroIconoMenu" src="../ASSETS/IMAGES/pajaroIconoMenu.png" alt="">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav listaDesordenada ">
+              <li class="nav-item listaNav">
+                <a class="nav-link " href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item listaNav">
+                <a class="nav-link" href="#">Acerca De Nosotros</a>
+              </li>
+              <li class="nav-item listaNav">
+                <a class="nav-link" href="./colecciones.html">Colecciones</a>
+              </li>
+              <li class="nav-item listaNav">
+                <a class="nav-link" href="./galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item listaNav">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
     </div>
   </div>
 </nav>
@@ -82,6 +87,6 @@ Todos los derechos reservados ®
 </footer>
 
 <!-- js de bootstrap -->
-    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,82 @@
+.max-width-400 {
+  width: 400px;
+  font-size: 14px;
+}
+
+.formNl h2 {
+  font-size: 21px;
+}
+
+.videoCaja {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 800px;
+  height: 500px;
+}
+
+.luImagen {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 220px;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.no-padding .cajaTop {
+  background-color: rgb(0, 0, 0);
+}
+.no-padding .cajaTop .luLogoWhite {
+  height: 60px;
+  padding-left: 30px;
+  margin: 12px 0 12px 0;
+}
+.no-padding .barraNavegacion {
+  width: auto;
+}
+.no-padding .barraNavegacion img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 30px;
+}
+.no-padding ul {
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.no-padding ul li {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.cajaFooter {
+  background-color: rgb(0, 0, 0);
+  height: 70px;
+  margin-top: 30px;
+  color: white;
+  font-size: 10px;
+}
+.cajaFooter .instaLogo {
+  color: white;
+}
+.cajaFooter .instaLogo:hover {
+  color: rgb(255, 145, 233);
+}
+.cajaFooter .facebookLogo {
+  padding-left: 10px;
+}
+.cajaFooter .facebookLogo a {
+  color: white;
+}
+.cajaFooter .facebookLogo a:hover {
+  color: rgb(255, 145, 233);
+}
+.cajaFooter .twitterLogo {
+  padding-left: 10px;
+}
+.cajaFooter .twitterLogo a {
+  color: white;
+}
+.cajaFooter .twitterLogo a:hover {
+  color: rgb(255, 145, 233);
+}/*# sourceMappingURL=estilos.css.map */

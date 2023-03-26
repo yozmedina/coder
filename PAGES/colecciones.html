@@ -12,49 +12,56 @@
     <!-- BOOTSTRAP -->
 
   <link rel="stylesheet" href="../CSS/bootstrap.min.css">
-  <link rel="stylesheet" href="../CSS/estilos.css">
+  <link rel="stylesheet" href="../SCSS/estilos.css">
 </head>
 
-
-<header class="container-fluid no-padding ">
-<div class="cajaTop sticky-top">
-<img  class="luLogoWhite" src="../ASSETS/IMAGES/lu logo white.png" alt="Lu Logo White" >
-</div>
-
-<!-- Logo del header -->
-  <div style="margin-top: 30px;"  class="container-fluid">
-    
-    <img style="max-height: 120px;" class="img-fluid mx-auto d-block" src="../ASSETS/IMAGES/LU LOGO HD.png" alt="Lú Handbags Logo" >
-
-  </div>
-
-<!-- Barra de navegación -->
-<nav class="navbar navbar-expand-lg navbar-light ">
-  <div class="container-fluid barraNavegacion ">
-      <ul class="navbar-nav listaDesordenada ">
-        <li class="nav-item listaNav">
-          <a class="nav-link " href="../index.html">Inicio</a>
-        </li>
-        <li class="nav-item listaNav">
-          <a class="nav-link" href="./acerca de nosotros.html">Acerca De Nosotros</a>
-        </li>
-        <li class="nav-item listaNav">
-          <a class="nav-link" href="#">Colecciones</a>
-        </li>
-        <li class="nav-item listaNav">
-          <a class="nav-link" href="./galeria.html">Galeria</a>
-        </li>
-        <li class="nav-item listaNav">
-          <a class="nav-link" href="./contacto.html">Contacto</a>
-        </li>
-        
-      </ul>
-    </div>
-  </div>
-</nav>
-</header>
-
 <body>
+
+  <header class="container-fluid no-padding ">
+  <div class="cajaTop sticky-top">
+  <img  class="luLogoWhite" src="../ASSETS/IMAGES/lu logo white.png" alt="Lu Logo White" >
+  </div>
+
+  <!-- Logo del header -->
+    <div style="margin-top: 30px;"  class="container-fluid">
+      
+      <img style="max-height: 120px;" class="img-fluid mx-auto d-block" src="../ASSETS/IMAGES/LU LOGO HD.png" alt="Lú Handbags Logo" >
+
+    </div>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid barraNavegacion ">
+
+
+      <button class="navbar-toggler mt-4 sticky-top" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <img class="pajaroIconoMenu" src="../ASSETS/IMAGES/pajaroIconoMenu.png" alt="">
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav listaDesordenada ">
+          <li class="nav-item listaNav">
+            <a class="nav-link " href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item listaNav">
+            <a class="nav-link" href="./acerca de nosotros.html">Acerca De Nosotros</a>
+          </li>
+          <li class="nav-item listaNav">
+            <a class="nav-link" href="#">Colecciones</a>
+          </li>
+          <li class="nav-item listaNav">
+            <a class="nav-link" href="./galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item listaNav">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  </header>
+
 
 <main>
 <div class="row d-flex justify-content-center mt-5 " >
@@ -80,7 +87,9 @@
 
 
 </main>
-
+<!-- js de bootstrap -->
+<script src="../JS/bootstrap.bundle.min.js"></script>
+</body>
 
 <footer>
   <div class="container-fluid d-flex align-items-center  cajaFooter">
@@ -90,7 +99,4 @@ Todos los derechos reservados ®
 
 </footer>
 
-<!-- js de bootstrap -->
-    <script src="./JS/bootstrap.bundle.min.js"></script>
-</body>
 </html>

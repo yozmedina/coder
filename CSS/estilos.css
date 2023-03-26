@@ -54,3 +54,41 @@ width: auto;
     width: 800px;
     height: 500px;
 }
+
+
+.instaLogo {
+    color: white;
+}
+.instaLogo:hover {
+    color: rgb(255, 145, 233);
+}
+
+.facebookLogo {
+    padding-left: 10px;
+   
+}
+.facebookLogo a {
+    color: white;
+}
+
+.facebookLogo a:hover {
+    color: rgb(255, 145, 233);
+}
+
+.twitterLogo {
+    padding-left: 10px;
+}
+.twitterLogo a {
+    color: white;
+}
+
+.twitterLogo a:hover {
+    color: rgb(255, 145, 233);
+}
+
+.pajaroIconoMenu {
+
+object-fit: contain;
+height: 30px;
+}
+

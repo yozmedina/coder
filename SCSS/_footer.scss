@@ -1,0 +1,36 @@
+
+.cajaFooter{
+    background-color: $fondo-color ;
+    height: 70px;
+    margin-top: 30px;
+    color: white;
+    font-size: 10px;
+
+    .instaLogo {
+        color:$logo-social-color;
+        &:hover{
+            color: $hover-logo-color;
+            
+        }
+    }
+
+    .facebookLogo {
+        padding-left: 10px;
+        a {
+            color:$logo-social-color;
+            &:hover {
+                color: $hover-logo-color;
+            }
+        }
+    }
+
+    .twitterLogo {
+        padding-left: 10px;
+        a {
+            color: $logo-social-color;
+            &:hover {
+                color:$hover-logo-color;
+            }
+        }
+    }
+}

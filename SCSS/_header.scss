@@ -1,0 +1,36 @@
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;  
+
+    .cajaTop {
+        background-color: map-get($colores, fondo);
+
+        .luLogoWhite {
+            height: 60px;
+            padding-left: 30px;
+            margin: 12px 0 12px 0;
+        }
+    }  
+        .barraNavegacion{
+            width: auto;
+            img {
+                object-fit: contain;
+                height: 30px;
+                }
+            }
+
+                ul {
+                    justify-content: space-evenly;
+                    margin-top: 40px;
+
+                    li {
+                        padding-left: 50px;
+                        padding-right: 50px;
+                    }
+
+        }
+}
+
+
+
+        
