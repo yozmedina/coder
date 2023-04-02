@@ -33,4 +33,17 @@
             }
         }
     }
+/* esto es el hover en las redes sociales */
+    .svg-hover {
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .svg-hover:hover {
+        transform: translateY(-5px);
+      }
+
 }
+
+
+  
+

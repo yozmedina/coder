@@ -34,6 +34,7 @@
 }
 .no-padding .barraNavegacion {
   width: auto;
+  margin-bottom: 17px;
 }
 .no-padding .barraNavegacion img {
   -o-object-fit: contain;
@@ -47,14 +48,39 @@
 .no-padding ul li {
   padding-left: 50px;
   padding-right: 50px;
+  /* animacion de hover en navbar */
+}
+.no-padding ul li a.underline-hover-effect {
+  text-decoration: none;
+  color: inherit;
+}
+.no-padding ul li .underline-hover-effect {
+  display: inline-block;
+  padding-bottom: 0.25rem; /* defines the space between text and underline */
+  position: relative;
+}
+.no-padding ul li .underline-hover-effect::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgba(85, 92, 85, 0.582);
+  transition: width 0.25s ease-out;
+}
+.no-padding ul li .underline-hover-effect:hover::before {
+  width: 100%;
 }
 
+/* esto es el hover en las anclas */
 .cajaFooter {
   background-color: rgb(0, 0, 0);
   height: 70px;
   margin-top: 30px;
   color: white;
   font-size: 10px;
+  /* esto es el hover en las redes sociales */
 }
 .cajaFooter .instaLogo {
   color: white;
@@ -79,4 +105,10 @@
 }
 .cajaFooter .twitterLogo a:hover {
   color: rgb(255, 145, 233);
+}
+.cajaFooter .svg-hover {
+  transition: transform 0.3s ease-in-out;
+}
+.cajaFooter .svg-hover:hover {
+  transform: translateY(-5px);
 }/*# sourceMappingURL=estilos.css.map */

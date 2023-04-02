@@ -11,8 +11,11 @@
             margin: 12px 0 12px 0;
         }
     }  
+
+
         .barraNavegacion{
             width: auto;
+            margin-bottom: 17px;
             img {
                 object-fit: contain;
                 height: 30px;
@@ -26,11 +29,44 @@
                     li {
                         padding-left: 50px;
                         padding-right: 50px;
-                    }
+                        
+                         /* animacion de hover en navbar */
+                        a.underline-hover-effect {
+                            text-decoration: none;
+                            color: inherit;
+                          }
+                          
+                          .underline-hover-effect {
+                            display: inline-block;
+                            padding-bottom: 0.25rem; /* defines the space between text and underline */
+                            position: relative;
+                          }
 
-        }
+                          .underline-hover-effect::before {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            width: 0;
+                            height: 2px;
+                            background-color: rgba(85, 92, 85, 0.582);
+                            transition: width 0.25s ease-out;
+                          }
+                          .underline-hover-effect:hover::before {
+                            width: 100%;
+                          }
+
+                        }
+       }
 }
 
 
 
-        
+  /* esto es el hover en las anclas */
+
+
+  
+
+  
+  
+  
