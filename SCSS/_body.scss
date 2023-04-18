@@ -1,7 +1,11 @@
  
-    .formNl h2 {
+    .formNl  {
+        margin-bottom: 200px;
+            h2 {
         font-size: 21px;
+
     }
+}
     .videoCaja {
         object-fit: cover;
         width: 800px;
@@ -13,3 +17,10 @@
         height: 220px;
     }
     
+    .lu404 {
+
+    object-fit: contain;
+    margin-top: 80px;
+    height: 380px;
+    margin-bottom: 150px;
+    }
